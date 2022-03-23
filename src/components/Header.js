@@ -18,7 +18,7 @@ const Header = () => {
         ghost={false}
         extra={[
           <>
-          <img src={Amazon} className="logo"></img>
+          <img src={"https://external-preview.redd.it/z0fa0CuncQVL-8oVOz2B9oDReCqh6Lqoq6fp3nDJF0c.jpg?auto=webp&s=935bc57a7802f0e59145de11d58344c8ee9a4480"} className="logo"></img>
           <img src={BookStore} className="logo"></img>
           <Search
               placeholder="Find A Product"

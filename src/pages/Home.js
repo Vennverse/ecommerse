@@ -14,7 +14,7 @@ import Dictionaries from "../images/dictionaries.png";
 import Fantasy from "../images/fantasy.png";
 import Horror from "../images/horror.png";
 
-const carousel = [Carousel1,Carousel2,Carousel3];
+const carousel = ["https://m.media-amazon.com/images/I/71qid7QFWJL._SX3000_.jpg","https://m.media-amazon.com/images/I/71OZAEUljcL._SX3000_.jpg","https://m.media-amazon.com/images/I/81RfElMNeuL._SX3000_.jpg","https://m.media-amazon.com/images/I/61pxhbXv8tL._SX3000_.jpg"];
 const catCard = [Adventure, Fantasy,Horror,Dictionaries];
 const Home = () => {
 
@@ -37,7 +37,7 @@ return(
         </Link>
       </Card>
       <Card className="card">
-        <h1>Artemis Fowl</h1>
+        <h1></h1>
         <img src={ArtemisFowl} alt="Artemis Fowl" className="card-content"></img>
         <br />
         <Link to="/" className="link">
